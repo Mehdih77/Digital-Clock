@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Orbitron", sans-serif;
+  background-color: #000;
+}
+.text__color {
+  background: linear-gradient(to bottom, #b9a329, #b44200);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.time__wrapper {
+  position: relative;
+}
+#time {
+  text-shadow: 0 0 55px #b9a329;
+  font-size: 4.5rem;
+}
+#med {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+.day__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.day__wrapper span {
+  font-size: 0.9rem;
+  opacity: 0.4;
+  font-weight: 600;
+  padding: 0 4px;
+}
+#full__date {
+  padding-left: 4px;
+}
